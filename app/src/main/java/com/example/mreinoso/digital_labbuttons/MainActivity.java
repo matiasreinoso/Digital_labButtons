@@ -17,6 +17,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
         imgBtn1 = (ImageButton) findViewById(R.id.imageButton);
         imgBtn2 = (ImageButton) findViewById(R.id.imageButton2);
         imgBtn3 = (ImageButton) findViewById(R.id.imageButton3);
@@ -29,6 +31,19 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         imgBtn10 = (ImageButton) findViewById(R.id.imageButton10);
         imgBtn11 = (ImageButton) findViewById(R.id.imageButton11);
         imgBtn12 = (ImageButton) findViewById(R.id.imageButton12);
+
+        imgBtn1.setOnClickListener(this);
+        imgBtn2.setOnClickListener(this);
+        imgBtn3.setOnClickListener(this);
+        imgBtn4.setOnClickListener(this);
+        imgBtn5.setOnClickListener(this);
+        imgBtn6.setOnClickListener(this);
+        imgBtn7.setOnClickListener(this);
+        imgBtn8.setOnClickListener(this);
+        imgBtn9.setOnClickListener(this);
+        imgBtn10.setOnClickListener(this);
+        imgBtn11.setOnClickListener(this);
+        imgBtn12.setOnClickListener(this);
     }
 
     @Override
