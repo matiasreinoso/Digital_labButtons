@@ -11,111 +11,283 @@
 
     <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1">
+        android:layout_height="wrap_content"
+        android:orientation="center">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="50dp"
-            android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
 
-            <ImageButton
-                android:id="@+id/imageButton"
-                android:layout_width="100dp"
-                android:layout_height="100dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Juanma - eeee"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton"
+                    android:text="Chris - Besis"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton2"
+                    android:text="Rodri - Caroo"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Juanma - chicos,chicos"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton4"
+                    android:text="Chris - Juanma gato"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton5"
+                    android:text="Rodri - Oh por Dios!"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Policia"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton7"
+                    android:text="Juanma - Qué haces perri?"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton9"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton8"
+                    android:text="Juanma - venite, daleee"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton10"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Juanma - Perriii"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton11"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton10"
+                    android:text="Juanma - Telo"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton12"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton11"
+                    android:text="Juanma - Cagón"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton13"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Vicky - Rosebar"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton14"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton13"
+                    android:text="China - Enojada"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton15"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton14"
+                    android:text="China - Puteando"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton16"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Juli - Fiesta"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton17"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton16"
+                    android:text="Juanma - Botonera"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton18"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton17"
+                    android:text="Fede - Sábado"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton19"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Juanma - Too much"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton20"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton19"
+                    android:text="Juanma - Sin palabras"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton21"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton20"
+                    android:text="Juanma - Indignado"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton22"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Juanma - Indignado 2"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton23"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton22"
+                    android:text="Juanma - Ariii"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton24"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton23"
+                    android:text=""
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+        </LinearLayout>
 
 
-            <ImageButton
-                android:id="@+id/imageButton2"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginStart="5dp"
-                android:layout_toEndOf="@id/imageButton" />
-
-            <ImageButton
-                android:id="@+id/imageButton3"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginStart="5dp"
-                android:layout_toEndOf="@id/imageButton2" />
-
-
-            <ImageButton
-                android:id="@+id/imageButton4"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_below="@id/imageButton" />
-
-
-            <ImageButton
-                android:id="@+id/imageButton5"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_below="@id/imageButton2"
-                android:layout_marginStart="5dp"
-                android:layout_toEndOf="@id/imageButton4" />
-
-            <ImageButton
-                android:id="@+id/imageButton6"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_below="@id/imageButton3"
-                android:layout_marginStart="5dp"
-                android:layout_toEndOf="@id/imageButton5" />
-
-
-            <ImageButton
-                android:id="@+id/imageButton7"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_below="@id/imageButton4" />
-
-
-            <ImageButton
-                android:id="@+id/imageButton8"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_below="@id/imageButton5"
-                android:layout_marginStart="5dp"
-                android:layout_toEndOf="@id/imageButton4" />
-
-            <ImageButton
-                android:id="@+id/imageButton9"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_below="@id/imageButton6"
-                android:layout_marginStart="5dp"
-                android:layout_toEndOf="@id/imageButton5" />
-
-
-            <ImageButton
-                android:id="@+id/imageButton10"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_below="@id/imageButton7" />
-
-
-            <ImageButton
-                android:id="@+id/imageButton11"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_below="@id/imageButton8"
-                android:layout_marginStart="5dp"
-                android:layout_toEndOf="@id/imageButton4" />
-
-            <ImageButton
-                android:id="@+id/imageButton12"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_below="@id/imageButton9"
-                android:layout_marginStart="5dp"
-                android:layout_toEndOf="@id/imageButton5" />
-
-
-        </RelativeLayout>
     </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
