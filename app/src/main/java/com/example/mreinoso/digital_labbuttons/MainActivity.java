@@ -57,9 +57,9 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         imgBtn21 = (Button) findViewById(R.id.imageButton21);
         imgBtn22 = (Button) findViewById(R.id.imageButton22);
         imgBtn23 = (Button) findViewById(R.id.imageButton23);
-        imgBtn24 = (Button) findViewById(R.id.imageButton23);
-        imgBtn25 = (Button) findViewById(R.id.imageButton23);
-        imgBtn26 = (Button) findViewById(R.id.imageButton23);
+        imgBtn24 = (Button) findViewById(R.id.imageButton24);
+        imgBtn25 = (Button) findViewById(R.id.imageButton25);
+        imgBtn26 = (Button) findViewById(R.id.imageButton26);
 
         imgBtn1.setOnClickListener(this);
         imgBtn2.setOnClickListener(this);
