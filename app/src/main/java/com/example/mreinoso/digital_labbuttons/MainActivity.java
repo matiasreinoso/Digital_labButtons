@@ -23,7 +23,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             imgBtn20,
             imgBtn21,
             imgBtn22,
-            imgBtn23;
+            imgBtn23,
+            imgBtn24,
+            imgBtn25,
+            imgBtn26;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +57,9 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         imgBtn21 = (Button) findViewById(R.id.imageButton21);
         imgBtn22 = (Button) findViewById(R.id.imageButton22);
         imgBtn23 = (Button) findViewById(R.id.imageButton23);
+        imgBtn24 = (Button) findViewById(R.id.imageButton23);
+        imgBtn25 = (Button) findViewById(R.id.imageButton23);
+        imgBtn26 = (Button) findViewById(R.id.imageButton23);
 
         imgBtn1.setOnClickListener(this);
         imgBtn2.setOnClickListener(this);
@@ -78,6 +84,9 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         imgBtn21.setOnClickListener(this);
         imgBtn22.setOnClickListener(this);
         imgBtn23.setOnClickListener(this);
+        imgBtn24.setOnClickListener(this);
+        imgBtn25.setOnClickListener(this);
+        imgBtn26.setOnClickListener(this);
     }
 
     @Override
@@ -154,6 +163,15 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 break;
             case R.id.imageButton23:
                 idAudio = R.raw.arii;
+                break;
+            case R.id.imageButton24:
+                idAudio = R.raw.ahbueno;
+                break;
+            case R.id.imageButton25:
+                idAudio = R.raw.untemon;
+                break;
+            case R.id.imageButton26:
+                idAudio = R.raw.uncalor;
                 break;
         }
 

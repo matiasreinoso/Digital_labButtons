@@ -11,8 +11,7 @@
 
     <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="center">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -281,6 +280,40 @@
                     android:layout_height="100dp"
                     android:layout_marginStart="5dp"
                     android:layout_toEndOf="@id/imageButton23"
+                    android:text="Fabi - Ah, bue!"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton25"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="China - Un temón"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton26"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton25"
+                    android:text="China - Un caloor"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton27"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton26"
                     android:text=""
                     android:textAllCaps="false" />
             </RelativeLayout>
