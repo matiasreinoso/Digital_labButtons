@@ -314,10 +314,42 @@
                     android:layout_height="100dp"
                     android:layout_marginStart="5dp"
                     android:layout_toEndOf="@id/imageButton26"
-                    android:text=""
+                    android:text="Clari - Polen"
                     android:textAllCaps="false" />
             </RelativeLayout>
 
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton28"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Juanma - Pollo"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton29"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton28"
+                    android:text="Juanma - ¿Cómo hace el pollo?"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton30"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton29"
+                    android:text="Juanma - Fede!"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
         </LinearLayout>
 
 

@@ -26,7 +26,11 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             imgBtn23,
             imgBtn24,
             imgBtn25,
-            imgBtn26;
+            imgBtn26,
+            imgBtn27,
+            imgBtn28,
+            imgBtn29,
+            imgBtn30;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +64,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         imgBtn24 = (Button) findViewById(R.id.imageButton24);
         imgBtn25 = (Button) findViewById(R.id.imageButton25);
         imgBtn26 = (Button) findViewById(R.id.imageButton26);
+        imgBtn27 = (Button) findViewById(R.id.imageButton27);
+        imgBtn28 = (Button) findViewById(R.id.imageButton28);
+        imgBtn29 = (Button) findViewById(R.id.imageButton29);
+        imgBtn30 = (Button) findViewById(R.id.imageButton30);
 
         imgBtn1.setOnClickListener(this);
         imgBtn2.setOnClickListener(this);
@@ -87,6 +95,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         imgBtn24.setOnClickListener(this);
         imgBtn25.setOnClickListener(this);
         imgBtn26.setOnClickListener(this);
+        imgBtn27.setOnClickListener(this);
+        imgBtn28.setOnClickListener(this);
+        imgBtn29.setOnClickListener(this);
+        imgBtn30.setOnClickListener(this);
     }
 
     @Override
@@ -172,6 +184,18 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 break;
             case R.id.imageButton26:
                 idAudio = R.raw.uncalor;
+                break;
+            case R.id.imageButton27:
+                idAudio = R.raw.clari_polen;
+                break;
+            case R.id.imageButton28:
+                idAudio = R.raw.juanma_pollo;
+                break;
+            case R.id.imageButton29:
+                idAudio = R.raw.juanma_pollo2;
+                break;
+            case R.id.imageButton30:
+                idAudio = R.raw.juanma_fede;
                 break;
         }
 
