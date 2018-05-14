@@ -350,6 +350,244 @@
                     android:text="Juanma - Fede!"
                     android:textAllCaps="false" />
             </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton31"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Cachi - Ya comió"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton32"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton31"
+                    android:text="Mati - Es un 7 Juanma"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton33"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton32"
+                    android:text="Juanma - Uber de amor!"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton34"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Juanma - Pettinato"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton35"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton34"
+                    android:text="Juanma - Se vuelve loco"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton36"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton35"
+                    android:text="Juanma - Gamba 70 por Gral Paz"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton37"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Juanma - Farsante"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton38"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton37"
+                    android:text="Juanma -  Cachi - Perrii!"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton39"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton38"
+                    android:text="Juanma - Bella Ciao"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton40"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Juani - Valeria del Mar"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton41"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton40"
+                    android:text="Fede - Ruta 11"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton42"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton41"
+                    android:text="Juani - Mar del Plata"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton43"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Fede - Tarado"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton44"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton43"
+                    android:text="Fede - Rosebar, Vita.."
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton45"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton44"
+                    android:text="Fede - Minas!"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton46"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Fede - Matii"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton47"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton46"
+                    android:text="Fede - Ari Reload"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton48"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton47"
+                    android:text="Fede - El mate"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/imageButton49"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Fede - Cabeza!"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton50"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton49"
+                    android:text=""
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/imageButton51"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/imageButton50"
+                    android:text=""
+                    android:textAllCaps="false" />
+            </RelativeLayout>
         </LinearLayout>
 
 

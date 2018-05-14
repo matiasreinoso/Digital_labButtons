@@ -30,7 +30,26 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             imgBtn27,
             imgBtn28,
             imgBtn29,
-            imgBtn30;
+            imgBtn30,
+            imgBtn31,
+            imgBtn32,
+            imgBtn33,
+            imgBtn34,
+            imgBtn35,
+            imgBtn36,
+            imgBtn37,
+            imgBtn38,
+            imgBtn39,
+            imgBtn40,
+            imgBtn41,
+            imgBtn42,
+            imgBtn43,
+            imgBtn44,
+            imgBtn45,
+            imgBtn46,
+            imgBtn47,
+            imgBtn48,
+            imgBtn49;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +87,26 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         imgBtn28 = (Button) findViewById(R.id.imageButton28);
         imgBtn29 = (Button) findViewById(R.id.imageButton29);
         imgBtn30 = (Button) findViewById(R.id.imageButton30);
+        imgBtn31 = (Button) findViewById(R.id.imageButton31);
+        imgBtn32 = (Button) findViewById(R.id.imageButton32);
+        imgBtn33 = (Button) findViewById(R.id.imageButton33);
+        imgBtn34 = (Button) findViewById(R.id.imageButton34);
+        imgBtn35 = (Button) findViewById(R.id.imageButton35);
+        imgBtn36 = (Button) findViewById(R.id.imageButton36);
+        imgBtn37 = (Button) findViewById(R.id.imageButton37);
+        imgBtn38 = (Button) findViewById(R.id.imageButton38);
+        imgBtn39 = (Button) findViewById(R.id.imageButton39);
+        imgBtn40 = (Button) findViewById(R.id.imageButton40);
+        imgBtn41 = (Button) findViewById(R.id.imageButton41);
+        imgBtn42 = (Button) findViewById(R.id.imageButton42);
+        imgBtn43 = (Button) findViewById(R.id.imageButton43);
+        imgBtn44 = (Button) findViewById(R.id.imageButton44);
+        imgBtn45 = (Button) findViewById(R.id.imageButton45);
+        imgBtn46 = (Button) findViewById(R.id.imageButton46);
+        imgBtn47 = (Button) findViewById(R.id.imageButton47);
+        imgBtn48 = (Button) findViewById(R.id.imageButton48);
+        imgBtn49 = (Button) findViewById(R.id.imageButton49);
+
 
         imgBtn1.setOnClickListener(this);
         imgBtn2.setOnClickListener(this);
@@ -99,6 +138,27 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         imgBtn28.setOnClickListener(this);
         imgBtn29.setOnClickListener(this);
         imgBtn30.setOnClickListener(this);
+
+
+        imgBtn31.setOnClickListener(this);
+        imgBtn32.setOnClickListener(this);
+        imgBtn33.setOnClickListener(this);
+        imgBtn34.setOnClickListener(this);
+        imgBtn35.setOnClickListener(this);
+        imgBtn36.setOnClickListener(this);
+        imgBtn37.setOnClickListener(this);
+        imgBtn38.setOnClickListener(this);
+        imgBtn39.setOnClickListener(this);
+        imgBtn40.setOnClickListener(this);
+        imgBtn41.setOnClickListener(this);
+        imgBtn42.setOnClickListener(this);
+        imgBtn43.setOnClickListener(this);
+        imgBtn44.setOnClickListener(this);
+        imgBtn45.setOnClickListener(this);
+        imgBtn46.setOnClickListener(this);
+        imgBtn47.setOnClickListener(this);
+        imgBtn48.setOnClickListener(this);
+        imgBtn49.setOnClickListener(this);
     }
 
     @Override
@@ -197,6 +257,66 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             case R.id.imageButton30:
                 idAudio = R.raw.juanma_fede;
                 break;
+
+            case R.id.imageButton31:
+                idAudio = R.raw.cachi_comio;
+                break;
+            case R.id.imageButton32:
+                idAudio = R.raw.mati_7juanma;
+                break;
+            case R.id.imageButton33:
+                idAudio = R.raw.juanma_uber;
+                break;
+            case R.id.imageButton34:
+                idAudio = R.raw.juanma_petinato;
+                break;
+            case R.id.imageButton35:
+                idAudio = R.raw.juanma_loco;
+                break;
+            case R.id.imageButton36:
+                idAudio = R.raw.juanma_gamba70;
+                break;
+            case R.id.imageButton37:
+                idAudio = R.raw.juanma_farsante;
+                break;
+            case R.id.imageButton38:
+                idAudio = R.raw.juanma_cachi_perri;
+                break;
+            case R.id.imageButton39:
+                idAudio = R.raw.juanma_bella_ciao;
+                break;
+            case R.id.imageButton40:
+                idAudio = R.raw.juani_valeria_del_mar;
+                break;
+            case R.id.imageButton41:
+                idAudio = R.raw.fede_ruta11;
+                break;
+
+            case R.id.imageButton42:
+                idAudio = R.raw.juani_mdp;
+                break;
+            case R.id.imageButton43:
+                idAudio = R.raw.fede_tarado;
+                break;
+            case R.id.imageButton44:
+                idAudio = R.raw.fede_rosebar;
+                break;
+            case R.id.imageButton45:
+                idAudio = R.raw.fede_minas;
+                break;
+            case R.id.imageButton46:
+                idAudio = R.raw.fede_mati;
+                break;
+            case R.id.imageButton47:
+                idAudio = R.raw.fede_ari2;
+                break;
+            case R.id.imageButton48:
+                idAudio = R.raw.fede_mate;
+                break;
+            case R.id.imageButton49:
+                idAudio = R.raw.fede_chiste;
+                break;
+
         }
 
         mp.reset();
